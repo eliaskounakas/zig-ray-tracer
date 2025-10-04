@@ -1,1 +1,1 @@
-# zig-ray-tracing
+# zig-ray-tracer
