@@ -66,7 +66,7 @@ pub fn main() !void {
     var stdout_writer = std.fs.File.stdout().writer(&stdout_buffer);
     const stdout = &stdout_writer.interface;
 
-    try stdout.print("P3\n{d} {d}\n255\n", .{ @abs(screen_width), @abs(screen_height)});
+    try stdout.print("P3\n{d} {d}\n255\n", .{screen_width, screen_height});
 
 
     var y: f32 = (-screen_height) / 2;
