@@ -1,5 +1,7 @@
 # zig-ray-tracer
 
+v0.0.1
+
 ## Usage
 
 ``` bash
